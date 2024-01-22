@@ -1,0 +1,520 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  padding: 20px;
+}
+header .headercontainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headercontainer nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul .pagedropt .submenu {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+header .headercontainer nav ul .pagedropt:hover .submenu {
+  cursor: pointer;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+header .headercontainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headercontainer nav {
+    display: none;
+  }
+  header .headercontainer .dropdown {
+    display: block;
+  }
+  header .headercontainer .dropdown .dropdown-menu {
+    margin-left: -150px;
+  }
+}
+#apiproduct {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+#apiproduct .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#apiproduct .container #proList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#apiproduct .container #proList .box {
+  width: 100%;
+  padding: 20px;
+}
+#apiproduct .container #proList .box .div {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#apiproduct .container #proList .box .div img {
+  border-radius: 7px;
+  width: 100%;
+}
+#apiproduct .container #proList .box .div .onebtn {
+  width: 110px;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  font-size: 13px;
+  background-color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: white;
+}
+#apiproduct .container #proList .box .div .onebtn:hover {
+  background: green;
+}
+#apiproduct .container #proList .box .div .twobtn {
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#apiproduct .container #proList .box .div .twobtn:hover {
+  color: rgb(235, 81, 81);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  padding: 20px;
+}
+header .headercontainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headercontainer nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul .pagedropt .submenu {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+header .headercontainer nav ul .pagedropt:hover .submenu {
+  cursor: pointer;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+header .headercontainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headercontainer nav {
+    display: none;
+  }
+  header .headercontainer .dropdown {
+    display: block;
+  }
+  header .headercontainer .dropdown .dropdown-menu {
+    margin-left: -150px;
+  }
+}
+#apiproduct {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+#apiproduct .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#apiproduct .container #proBasket {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#apiproduct .container #proBasket .box {
+  width: 100%;
+  padding: 20px;
+}
+#apiproduct .container #proBasket .box .div {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#apiproduct .container #proBasket .box .div img {
+  border-radius: 7px;
+  width: 100%;
+}
+#apiproduct .container #proBasket .box .div .onebtn {
+  width: 110px;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  font-size: 13px;
+  background-color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: white;
+}
+#apiproduct .container #proBasket .box .div .onebtn:hover {
+  background: green;
+}
+#apiproduct .container #proBasket .box .div .twobtn {
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#apiproduct .container #proBasket .box .div .twobtn:hover {
+  color: rgb(235, 81, 81);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  padding: 20px;
+}
+header .headercontainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headercontainer nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul .pagedropt .submenu {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+header .headercontainer nav ul .pagedropt:hover .submenu {
+  cursor: pointer;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+header .headercontainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headercontainer nav {
+    display: none;
+  }
+  header .headercontainer .dropdown {
+    display: block;
+  }
+  header .headercontainer .dropdown .dropdown-menu {
+    margin-left: -150px;
+  }
+}
+#apiproduct {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+#apiproduct .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#apiproduct .container #proWishlist {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#apiproduct .container #proWishlist .box {
+  width: 100%;
+  padding: 20px;
+}
+#apiproduct .container #proWishlist .box .div {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#apiproduct .container #proWishlist .box .div img {
+  border-radius: 7px;
+  width: 100%;
+}
+#apiproduct .container #proWishlist .box .div .onebtn {
+  width: 110px;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  font-size: 13px;
+  background-color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: white;
+}
+#apiproduct .container #proWishlist .box .div .onebtn:hover {
+  background: green;
+}
+#apiproduct .container #proWishlist .box .div .twobtn {
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#apiproduct .container #proWishlist .box .div .twobtn:hover {
+  color: rgb(235, 81, 81);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  padding: 20px;
+}
+header .headercontainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .headercontainer nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+header .headercontainer nav ul .pagedropt .submenu {
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+header .headercontainer nav ul .pagedropt:hover .submenu {
+  cursor: pointer;
+  display: block;
+  display: flex;
+  flex-direction: column;
+}
+header .headercontainer .dropdown {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .headercontainer nav {
+    display: none;
+  }
+  header .headercontainer .dropdown {
+    display: block;
+  }
+  header .headercontainer .dropdown .dropdown-menu {
+    margin-left: -150px;
+  }
+}
+#proaddpage {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#proaddpage .container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#proaddpage .container .formdiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#proaddpage .container .formdiv #postform {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: beige;
+}
+#proaddpage .container .formdiv #postform input {
+  width: 100%;
+  height: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#proaddpage .container .formdiv #postform button {
+  width: 100%;
+  height: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: black;
+  color: white;
+}
+#proaddpage .container .formdiv #postform button:hover {
+  background-color: green;
+}
+#proaddpage .container table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid black;
+  width: 700px;
+  text-align: center;
+}
+#proaddpage .container table tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#proaddpage .container table tr th {
+  width: 100%;
+  margin-bottom: 20px;
+  width: 40%;
+  border: 1px solid black;
+  padding: 10px;
+}
+#proaddpage .container table tr td {
+  width: 100%;
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#proaddpage .container table tr td button {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  padding: 3px;
+}
+#proaddpage .container table tr td button:hover {
+  transition: 0.3s;
+  color: white;
+}
+#proaddpage .container table tr td img {
+  width: 70px;
+  height: 70px;
+}
+#proaddpage .container table tr td .proname {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#proaddpage .container table tr td .proname #filterdata {
+  width: 100px;
+  border: 2px solid black;
+}
